@@ -4,20 +4,55 @@ using UnityEngine.InputSystem;
 public class PictureInteraction : MonoBehaviour
 {
     public GameObject interactionPrompt;
+    public GameObject informationPanel;
+    public InputManager inputManager;
 
     private bool playerNearby = false;
 
     void Start()
     {
         interactionPrompt.SetActive(false);
+        informationPanel.SetActive(false);
     }
 
     void Update()
     {
+        if (informationPanel.activeSelf)
+        {
+            if (Keyboard.current != null &&
+                (Keyboard.current.eKey.wasPressedThisFrame ||
+                 Keyboard.current.escapeKey.wasPressedThisFrame))
+            {
+                CloseInformation();
+            }
+
+            return;
+        }
+
         if (playerNearby && Keyboard.current != null &&
             Keyboard.current.eKey.wasPressedThisFrame)
         {
-            Debug.Log("Picture interaction activated!");
+            OpenInformation();
+        }
+    }
+
+    private void OpenInformation()
+    {
+        informationPanel.SetActive(true);
+        interactionPrompt.SetActive(false);
+
+        inputManager.enabled = false;
+    }
+
+    private void CloseInformation()
+    {
+        informationPanel.SetActive(false);
+
+        inputManager.enabled = true;
+
+        if (playerNearby)
+        {
+            interactionPrompt.SetActive(true);
         }
     }
 
@@ -26,7 +61,11 @@ public class PictureInteraction : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerNearby = true;
-            interactionPrompt.SetActive(true);
+
+            if (!informationPanel.activeSelf)
+            {
+                interactionPrompt.SetActive(true);
+            }
         }
     }
 
