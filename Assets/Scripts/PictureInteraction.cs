@@ -1,58 +1,19 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PictureInteraction : MonoBehaviour
 {
-    public GameObject interactionPrompt;
-    public GameObject informationPanel;
-    public InputManager inputManager;
+    public string artworkDescription;
 
     private bool playerNearby = false;
+    private MuseumUIController uiController;
 
     void Start()
     {
-        interactionPrompt.SetActive(false);
-        informationPanel.SetActive(false);
-    }
+        uiController = FindFirstObjectByType<MuseumUIController>();
 
-    void Update()
-    {
-        if (informationPanel.activeSelf)
+        if (uiController == null)
         {
-            if (Keyboard.current != null &&
-                (Keyboard.current.eKey.wasPressedThisFrame ||
-                 Keyboard.current.escapeKey.wasPressedThisFrame))
-            {
-                CloseInformation();
-            }
-
-            return;
-        }
-
-        if (playerNearby && Keyboard.current != null &&
-            Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            OpenInformation();
-        }
-    }
-
-    private void OpenInformation()
-    {
-        informationPanel.SetActive(true);
-        interactionPrompt.SetActive(false);
-
-        inputManager.enabled = false;
-    }
-
-    private void CloseInformation()
-    {
-        informationPanel.SetActive(false);
-
-        inputManager.enabled = true;
-
-        if (playerNearby)
-        {
-            interactionPrompt.SetActive(true);
+            Debug.LogError("MuseumUIController was not found in the scene.");
         }
     }
 
@@ -62,9 +23,9 @@ public class PictureInteraction : MonoBehaviour
         {
             playerNearby = true;
 
-            if (!informationPanel.activeSelf)
+            if (uiController != null && !uiController.IsOpen)
             {
-                interactionPrompt.SetActive(true);
+                uiController.ShowPrompt(this);
             }
         }
     }
@@ -74,7 +35,19 @@ public class PictureInteraction : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerNearby = false;
-            interactionPrompt.SetActive(false);
+
+            if (uiController != null)
+            {
+                uiController.HidePrompt(this);
+            }
+        }
+    }
+
+    public void ShowPromptIfNearby()
+    {
+        if (playerNearby && uiController != null)
+        {
+            uiController.ShowPrompt(this);
         }
     }
 }
