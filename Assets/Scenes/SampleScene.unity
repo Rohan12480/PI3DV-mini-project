@@ -193,8 +193,10 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 4 Left
+      value: '"Is it a bird? Is it a plane? No, it''s Superman!" Well, in this case,
+        the question is more along the lines of: Is it a bird? The sign and the building
+        naturally guide the eye upwards towards the sky, leaving us wondering whether
+        there is a bird, a plane, or perhaps even Superman flying around up there.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1075,8 +1077,10 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 3 Left
+      value: Truth be told, I couldn't tell what drew me to this image. I mean, for
+        goodness' sake, it doesn't even show that much. However, despite its dullness,
+        it has a sharp edge, quite literally. The sharpness, the angle and the corner
+        shift all work together to guide the eye from one side to the other.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1162,8 +1166,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 3 Right
+      value: 'The future holds many secrets, but I hope one thing never changes:
+        being able to enjoy views like this. What started as a stroll turned into
+        one of my favourite photos. The purple sky reflecting on the ocean, with
+        small boats scattered across it, honestly makes this look like an iPhone
+        wallpaper.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1249,8 +1256,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 5 Right
+      value: A little creature wandering alone through a big city, wondering if someone
+        will come along to take care of it. Curious about everything passing by,
+        it seems to wait for a helping hand. Perhaps the little one is no longer
+        here today. If so, I hope it has found a better place, wherever that may
+        be.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1331,8 +1341,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 4 Right
+      value: An open sea beneath an endless sky above. The view gives a feeling of
+        true freedom, with no boundaries to constrain you and limitless possibilities
+        beyond the view. It reminds me of the painting Wanderer Above the Sea of
+        Fog, depicting a man looking out over a landscape, unaware of what awaits
+        him.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1877,8 +1890,10 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a tree in a peaceful park. The image captures nature
-        and the calm atmosphere of the surroundings. 3 Entrance
+      value: A hole in the wall, or should I say, the seabed? What lies beneath us,
+        waiting to emerge once again? Is this arch the way down to Atlantis, or is
+        it simply another one of Mother Nature's beautiful creations? The blue water,
+        combined with the green mountainside, creates a path down to the seabed.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2183,8 +2198,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a tree in a peaceful park. The image captures nature
-        and the calm atmosphere of the surroundings. 2 Entrance
+      value: Bobbing up and down, the people ride the Demons Ride all night long,
+        hopefully laughing and enjoying a break from all their worries. The structure
+        stretches perfectly diagonally across the sky, while little specks of heads
+        can be seen moving up. Maybe it's their first ride of the night, or perhaps
+        their 100th.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2721,8 +2739,10 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 2 Right
+      value: How many lines are enough, you may ask? I'd say there's always room
+        for more. I'm not quite sure what happened with the camera, but its movement
+        stretched the lights into countless white lines. Almost like cocaine trails,
+        they create a chaotic rush of light and energy.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3181,8 +3201,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 1 Right
+      value: The green object shines through the vibrant blue surroundings, almost
+        neon green-like. The simplicity of the object, combined with the diagonal
+        lines stretching to both sides, creates the impression of an impossible figure.
+        It almost feels as though the photograph has no clear beginning, middle,
+        or end.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3499,8 +3522,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 2 Left
+      value: Sometimes, capturing a great photograph means doing things that are
+        not so great, like climbing a water tower just to overlook a city that is
+        still full of life, even at night. The parchment flying in the wind creates
+        a natural and distinct cut across the photograph, drawing your eyes towards
+        the city.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4186,8 +4212,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 1 Left
+      value: Is it the sun in the night, or the moonlight shining through? Perhaps
+        it is simply a tiny speck of light shining through the darkness. The darkness
+        creeps in from the outside, trying to take away every trace of light, while
+        the little moon reminds us that light can still exist, even in the darkest
+        moments.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6136,8 +6165,10 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a large tree standing in a green park. The image
-        captures the peaceful atmosphere of nature. 5 Left
+      value: As the moonlight shines above, humans have created little artificial
+        moons in the form of streetlights, scattered throughout the city to illuminate
+        the paths of those passing by. Even in the darkness, these soldiers of the
+        night stand tall, guiding and helping any lost soul in need.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7036,8 +7067,11 @@ PrefabInstance:
       objectReference: {fileID: 372619722}
     - target: {fileID: 7156397157820607903, guid: 56088f1f4d4dd3a44ab98b5c9e200233, type: 3}
       propertyPath: artworkDescription
-      value: This artwork shows a tree in a peaceful park. The image captures nature
-        and the calm atmosphere of the surroundings. 1 Entrance
+      value: This photograph shows a large tree standing tall in a peaceful park.
+        Beside it, a little bench sits waiting. The tree's leaves create a sense
+        of calm and shelter for those sitting below. The quiet atmosphere makes us
+        imagine what it feels like to sit on the bench. It reminds us of the beauty
+        and peace of nature.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
